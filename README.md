@@ -22,6 +22,23 @@ The data comes from the [Luke Barousse's jobseeker dataset](Assets/data_jobs_sal
 
 The final file can be found in: [Decoding the Data Job Market.xlsx](Decoding%20the%20Data%20Job%20Market.xlsx)
 
+
+## ⚙️ Setup Instructions (Important)
+
+Please note: for the [Decoding the Data Job Market.xlsx](Decoding%20the%20Data%20Job%20Market.xlsx) file to work properly on your end, you must first access the [Luke Barousse's jobseeker dataset](Assets/data_jobs_salary_all.xlsx). You have two options:
+
+- 📥 Option 1: Download the dataset (Assets/data_jobs_salary_all.xlsx) and store it locally on your computer
+OR
+- 🌐 Option 2: Connect directly to the online dataset source (if available)
+
+Once you have access to the data, open the analysis Excel file and go to:
+
+### Data → Get Data → Data Source Settings
+
+From there, update the data source path to point to either your **local file location** or the **online dataset source**, depending on which option you chose.
+
+This ensures all Power Query connections refresh correctly and the data model functions as intended.
+
 ---
 
 ## 🎯 Business Questions
@@ -85,9 +102,15 @@ Within Power Query:
 - Eliminated excess whitespace
 - Prepared the data for relational modelling
 
+![Power Query Editor data_jobs_salary](Assets/Photos/Power%20Query%20Editor%20data_jobs_salary.png)  
+
+![Power Query Editor data_jobs_skills](Assets/Photos/Power%20Query%20Editor%20data_jobs_skills.png)
+
 ### 🔗 Data Modelling
 
 Both tables were loaded into Excel and connected through a shared **job_id** field using Power Pivot.
+
+![Power Pivot Data Connections](Assets/Photos/Power%20Pivot%20Data%20Connections.png)
 
 ---
 
@@ -109,7 +132,7 @@ The results suggest that employers place a premium on candidates who possess a d
 
 ## 📊 Visual
 
-![Skills vs Salary](images/skills_vs_salary.png)
+![Skill Count vs Salary](Assets/Photos/Salary%20vs%20Skills.png)
 
 ---
 
@@ -140,7 +163,7 @@ Geographic location remains a significant factor in compensation. Professionals 
 
 ## 📊 Visual
 
-![Salary by Region](images/salary_by_region.png)
+![Salary by Region](Assets/Photos/Salary%20Analysis.png)
 
 ---
 
@@ -162,7 +185,7 @@ The findings reinforce the importance of foundational analytical skills. SQL and
 
 ## 📊 Visual
 
-![Top Skills](images/top_skills.png)
+![Top Skills](Assets/Photos/Top%2010%20Data%20Skills.png)
 
 ---
 
@@ -189,7 +212,7 @@ Not all skills contribute equally to earning potential. Technical competencies t
 
 ## 📊 Visual
 
-![Skills and Salary Comparison](images/skill_salary_comparison.png)
+![Skills and Salary Analysis](Assets/Photos/Skill%20Salary%20Aanalysis.png)
 
 ---
 
