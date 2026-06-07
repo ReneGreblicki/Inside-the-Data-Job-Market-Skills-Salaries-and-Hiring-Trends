@@ -102,7 +102,8 @@ Within Power Query:
 - Eliminated excess whitespace
 - Prepared the data for relational modelling
 
-![Power Query Editor data_jobs_salary](Assets/Photos/Power%20Query%20Editor%20data_jobs_salary.png)
+![Power Query Editor data_jobs_salary](Assets/Photos/Power%20Query%20Editor%20data_jobs_salary.png)  
+
 ![Power Query Editor data_jobs_skills](Assets/Photos/Power%20Query%20Editor%20data_jobs_skills.png)
 
 ### 🔗 Data Modelling
