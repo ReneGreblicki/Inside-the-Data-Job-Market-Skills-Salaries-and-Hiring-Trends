@@ -14,6 +14,12 @@ This project was completed entirely in **Excel** using:
 - 📊 PivotTables
 - 📈 PivotCharts
 
+The data comes from the Luke Barousse's jobseeker dataset.
+
+The final dashboard can be found in:
+
+xx
+
 ---
 
 ## 🎯 Business Questions
@@ -59,9 +65,9 @@ I began by importing the raw job posting dataset into Power Query. To support an
 
 Contains job-level information such as:
 
-- Job title
-- Salary
-- Location
+- 👨‍💼 Job title
+- 💰 Salary
+- 📍 Location
 
 #### 🛠️ data_job_skills
 
@@ -118,7 +124,7 @@ Median Salary :=
 MEDIAN(data_jobs_all[salary_year_avg])
 ```
 
-I then used PivotTables connected to the data model to evaluate salary differences by job title and region.
+I used PivotTables connected to the data model to evaluate salary differences by job title and region.
 
 ## 💡 Key Findings
 
@@ -194,6 +200,12 @@ This project revealed several important trends in the data job market:
 - ☁️ Cloud technologies continue to grow in importance across the industry.
 - 🌍 Geographic location significantly influences compensation.
 - 💰 Specialised technical skills tend to provide greater salary advantages than general business software skills.
+
+---
+
+# ⚠️ Limitations
+
+Most of the dataset was collected from U.S.-based job postings, meaning international markets are underrepresented and salary trends may not fully reflect global conditions. Additionally, while the dataset is large, it represents only a subset of the overall data job market, so the findings should be viewed as indicative rather than definitive.
 
 ---
 
