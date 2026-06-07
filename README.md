@@ -14,13 +14,13 @@ This project was completed entirely in **Excel** using:
 - 📊 PivotTables
 - 📈 PivotCharts
 
-The data comes from the Luke Barousse's jobseeker dataset.
+The data comes from the [Luke Barousse's jobseeker dataset](Assets/data_jobs_salary_all.xlsx).
 
 ---
 
 ## 📂 The Final File:
 
-The final file can be found in: 
+The final file can be found in: [Decoding the Data Job Market.xlsx](Decoding%20the%20Data%20Job%20Market.xlsx)
 
 ---
 
