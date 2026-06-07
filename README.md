@@ -16,9 +16,7 @@ This project was completed entirely in **Excel** using:
 
 The data comes from the Luke Barousse's jobseeker dataset.
 
-### The final dashboard can be found in:
-
-xx
+The final dashboard can be found in:
 
 ---
 
