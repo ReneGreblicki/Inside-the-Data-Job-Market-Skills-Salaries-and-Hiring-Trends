@@ -24,7 +24,7 @@ xx
 
 ## 🎯 Business Questions
 
-To better understand the data job market, I explored four key questions:
+To better understand the data job market, the four key questions were explored:
 
 1. Does having more technical skills correlate with higher salaries?
 2. How do salaries vary across regions?
@@ -59,7 +59,7 @@ The data provides a realistic view of hiring trends across the data and analytic
 
 ### 🧹 Data Preparation
 
-I began by importing the raw job posting dataset into Power Query. To support analysis, I separated the data into two related tables:
+The raw job posting dataset was imported into Power Query. To support analysis, the data was separated into two related tables:
 
 #### 📋 data_jobs_all
 
@@ -75,7 +75,7 @@ Contains the skills associated with each job posting.
 
 ### 🔄 Data Transformation
 
-Within Power Query, I:
+Within Power Query:
 
 - Corrected data types
 - Removed unnecessary fields
@@ -93,7 +93,7 @@ Both tables were loaded into Excel and connected through a shared **job_id** fie
 
 ## 🔍 Method
 
-I analysed the relationship between the number of skills listed in a job posting and the corresponding median salary to investigate whether broader skill requirements were associated with higher compensation.
+The relationship between the number of skills listed in a job posting and the corresponding median salary was analysed to investigate whether broader skill requirements were associated with higher compensation.
 
 ## 💡 Key Findings
 
@@ -115,7 +115,7 @@ The results suggest that employers place a premium on candidates who possess a d
 
 ## 🧮 Method
 
-Using Power Pivot and DAX, I created measures to calculate median salaries and compare compensation between U.S. and international markets.
+Using Power Pivot and DAX, measures to calculate median salaries and compare compensation between U.S. and international markets were created.
 
 ### Example DAX Measure
 
@@ -124,7 +124,7 @@ Median Salary :=
 MEDIAN(data_jobs_all[salary_year_avg])
 ```
 
-I used PivotTables connected to the data model to evaluate salary differences by job title and region.
+PivotTables connected to the data model were used to evaluate salary differences by job title and region.
 
 ## 💡 Key Findings
 
@@ -146,7 +146,7 @@ Geographic location remains a significant factor in compensation. Professionals 
 
 ## 💪 Method
 
-Using Power Pivot, I built a relational data model linking job postings and skills through the **job_id** field. This allowed me to aggregate skill frequencies across thousands of postings and identify the technologies most requested by employers.
+Relational data model linking job postings and skills through the **job_id** field was built using Power Pivot. This allowed to aggregation of skill frequencies across thousands of postings and identifying the technologies most requested by employers.
 
 ## 💡 Key Findings
 
@@ -168,12 +168,12 @@ The findings reinforce the importance of foundational analytical skills. SQL and
 
 ## 📈 Method
 
-To compare skill demand with compensation, I created a combined PivotChart displaying:
+To compare skill demand with compensation a combined PivotChart was created, displaying:
 
 - 💰 Median Salary by Skill
 - 👍 Skill Occurrence Rate Across Job Postings
 
-This allowed me to identify both highly compensated and highly demanded skills.
+This allowed for indentification of highly compensated and highly demanded skills.
 
 ## 💡 Key Findings
 
