@@ -80,7 +80,7 @@ The data provides a realistic view of hiring trends across the data and analytic
 
 The raw job posting dataset was imported into Power Query. To support analysis, the data was separated into two related tables:
 
-#### 📋 data_jobs_all
+#### 📋 data_jobs_salary
 
 Contains job-level information such as:
 
@@ -88,7 +88,7 @@ Contains job-level information such as:
 - 💰 Salary
 - 📍 Location
 
-#### 🛠️ data_job_skills
+#### 🛠️ data_jobs_skills
 
 Contains the skills associated with each job posting.
 
@@ -102,7 +102,11 @@ Within Power Query:
 - Eliminated excess whitespace
 - Prepared the data for relational modelling
 
+#### 📋 data_jobs_salary
+
 ![Power Query Editor data_jobs_salary](Assets/Photos/Power%20Query%20Editor%20data_jobs_salary.png)  
+
+#### 🛠️ data_jobs_skills
 
 ![Power Query Editor data_jobs_skills](Assets/Photos/Power%20Query%20Editor%20data_jobs_skills.png)
 
