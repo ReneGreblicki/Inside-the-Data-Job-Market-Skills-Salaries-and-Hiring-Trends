@@ -142,11 +142,19 @@ The results suggest that employers place a premium on candidates who possess a d
 
 Using Power Pivot and DAX, measures to calculate median salaries and compare compensation between U.S. and international markets were created.
 
-### Example DAX Measure
+### Example DAX Measures
 
 ```DAX
 Median Salary :=
 MEDIAN(data_jobs_all[salary_year_avg])
+```
+
+```DAX
+Median Salary (US) :=
+CALCULATE(
+    MEDIAN(data_jobs_all[salary_year_avg]),
+    data_jobs_all[job_country] = "United States"
+)
 ```
 
 PivotTables connected to the data model were used to evaluate salary differences by job title and region.
