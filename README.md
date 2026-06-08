@@ -88,9 +88,13 @@ Contains job-level information such as:
 - 💰 Salary
 - 📍 Location
 
+![Power Query Editor data_jobs_salary](Assets/Photos/Power%20Query%20Editor%20data_jobs_salary.png)  
+
 #### 🛠️ data_jobs_skills
 
 Contains the skills associated with each job posting.
+
+![Power Query Editor data_jobs_skills](Assets/Photos/Power%20Query%20Editor%20data_jobs_skills.png)
 
 ### 🔄 Data Transformation
 
@@ -101,14 +105,6 @@ Within Power Query:
 - Standardised text values
 - Eliminated excess whitespace
 - Prepared the data for relational modelling
-
-#### 📋 data_jobs_salary
-
-![Power Query Editor data_jobs_salary](Assets/Photos/Power%20Query%20Editor%20data_jobs_salary.png)  
-
-#### 🛠️ data_jobs_skills
-
-![Power Query Editor data_jobs_skills](Assets/Photos/Power%20Query%20Editor%20data_jobs_skills.png)
 
 ### 🔗 Data Modelling
 
