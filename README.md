@@ -144,10 +144,14 @@ Using Power Pivot and DAX, measures to calculate median salaries and compare com
 
 ### Example DAX Measures
 
+#### 💰 Median Salary (Overall)
+
 ```DAX
 Median Salary :=
 MEDIAN(data_jobs_all[salary_year_avg])
 ```
+
+#### 🇺🇸 Median Salary (United States Only)
 
 ```DAX
 Median Salary (US) :=
