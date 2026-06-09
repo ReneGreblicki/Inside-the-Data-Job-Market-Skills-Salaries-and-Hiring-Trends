@@ -151,7 +151,7 @@ Median Salary :=
 MEDIAN(data_jobs_all[salary_year_avg])
 ```
 
-#### 🇺🇸 Median Salary (United States Only)
+#### 🗽 Median Salary (United States Only)
 
 ```DAX
 Median Salary (US) :=
@@ -166,7 +166,7 @@ PivotTables connected to the data model were used to evaluate salary differences
 ## 💡 Key Findings
 
 - 💼 Senior Data Engineers and Data Scientists consistently earned the highest salaries across both domestic and international markets.
-- 🇺🇸 U.S.-based positions generally offered higher compensation than comparable international roles.
+- 🗽 U.S.-based positions generally offered higher compensation than comparable international roles.
 - 💰 The salary gap was most noticeable in highly technical positions.
 
 ## 🤔 Interpretation
